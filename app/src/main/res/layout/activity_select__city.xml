@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:context=".Select_City">
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_bikaner"
+                        android:scaleType="fitXY"
+                        android:cropToPadding="true"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/bikaner"
+                        android:layout_height="match_parent" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_jaisalmer"
+                        android:scaleType="fitXY"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/jaisalmer"
+                        android:layout_height="match_parent" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_ajmer"
+                        android:scaleType="fitXY"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ajmer"
+                        android:layout_height="match_parent" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_udaipur"
+                        android:scaleType="fitXY"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/udaipur"
+                        android:layout_height="match_parent" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_agra"
+                        android:scaleType="fitXY"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/taj_mahal"
+                        android:layout_height="match_parent" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_jodhpur"
+                        android:scaleType="fitXY"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/jodhpur"
+                        android:layout_height="match_parent" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout><LinearLayout
+        android:layout_margin="5dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/img_alwar"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/alwar"
+                    android:layout_height="match_parent" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/img_jaipur"
+                    android:scaleType="fitXY"
+                    android:padding="5dp"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/hawa_mahal"
+                    android:layout_height="match_parent" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
